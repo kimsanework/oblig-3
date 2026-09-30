@@ -19,5 +19,3 @@ student = {
 # brukte og hvilke instruksjoner/spørsmål du ga den.
 
 #Tenk over: Klarte den å løse det på første forsøk (var koden kjørbar og virket det som forventet?)
-
-#kommentar
