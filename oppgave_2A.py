@@ -1,16 +1,25 @@
+import random
 # Oppgave 2.A – Funksjon - Tallgenerering
-#
-# Definer en funksjon som lager en fin utskrift med et tilfeldig
-# generert tall mellom 0 og 100 (husk at du kan benytte random.randrange()).
-# Funksjonen skal ikke ta noen parametere. Eksempelutskrift:
-#
-# *********
-#
-# ***97***
-#
-# *********
-#
-# Kall denne funksjonen noen ganger.
+
+def gi_et_tilfeldig_tall():
+    tilfeldig_tall = random.randrange(0,100)
+    return tilfeldig_tall
+
+gi_et_tilfeldig_tall()
+
+print("********")
+print(f"***{gi_et_tilfeldig_tall()}***")
+print("********")
+print()
+print("********")
+print(f"***{gi_et_tilfeldig_tall()}***")
+print("********")
+print()
+print("********")
+print(f"***{gi_et_tilfeldig_tall()}***")
+print("********")
+
+
 #
 #  Oppgave 2.B
 #
