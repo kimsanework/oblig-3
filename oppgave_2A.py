@@ -20,3 +20,5 @@ print(f"***{gi_et_tilfeldig_tall()}***")
 print("********")
 
 
+
+

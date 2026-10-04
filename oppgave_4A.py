@@ -20,3 +20,4 @@ def volum_3(lengde, bredde, høyde):
     return (lengde * høyde * bredde)/2
 resultat_3 = volum_3(lengde, bredde, høyde)
 print(f'Fun fact: Et halvparten så lite tredimensjonalt objekt ville vært: {resultat_3}')
+

@@ -5,3 +5,4 @@ def print_list(matretter):
 
 favoritt_matretter = ['Hamburger','Lasagne','Pizza']
 print_list(favoritt_matretter)
+
