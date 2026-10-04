@@ -7,6 +7,6 @@ student = {
 
 print(student['fornavn'], student['etternavn'])
 
-student['favorittfag'] = 'ITF10219 Programmering 1'
-student['alder'] = 33
+student['favorittfag'] = 'ITF10219 Programmering 1' # endrer verdien til nøkkelen "favorittfag"
+student['alder'] = 33 # legger til nytt "nøkkel-verdi"-par
 

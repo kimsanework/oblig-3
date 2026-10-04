@@ -1,8 +1,8 @@
 # Oppgave 5.1 A
 filmer = [
     {'name_1':'Inception','year_1': 2010,'rating_1': 8.7,
-     'name_2':'Inside Out','year_2':2015,'rating_2':8.1,
-     'name_3':'Con Air','year_3': 1997,'rating_3':6.9}
+     'name_2':'Inside Out','year_2': 2015,'rating_2': 8.1,
+     'name_3':'Con Air','year_3': 1997,'rating_3': 6.9}
 ]
 
 print(filmer)
