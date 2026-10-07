@@ -1,22 +1,46 @@
-# Oppgave 5.1 A
+# A) Oppretter en liste med filmer
+
 filmer = [
-    {'name_1':'Inception','year_1': 2010,'rating_1': 8.7,
-     'name_2':'Inside Out','year_2': 2015,'rating_2': 8.1,
-     'name_3':'Con Air','year_3': 1997,'rating_3': 6.9}
+    {
+        "name": "Inception",
+        "year": 2010,
+        "rating": 8.7
+    },
+    {
+        "name": "Inside Out",
+        "year": 2015,
+        "rating": 8.1
+    },
+    {
+        "name": "Con Air",
+        "year": 1997,
+        "rating": 6.9
+    }
 ]
 
-print(filmer)
-# Oppgave 5.1 B
 
-def legg_til(filmliste,name, year, rating):
-    film = {"name": name, "year": year, "rating": rating}
+# B og C) Funksjon som legger til en film
+# rating har default-verdi 5.0
+
+def add_movie(filmliste, name, year, rating=5.0):
+    film = {
+        "name": name,
+        "year": year,
+        "rating": rating
+    }
+
     filmliste.append(film)
 
-legg_til(filmer,"The Iron Giant", 1999, 8.1)
-legg_til(filmer,"The Dark Knight",2008,9.1)
-legg_til(filmer,"Django Unchained", 2012,8.5)
 
+# B) Legger til 3 filmer med rating
+add_movie(filmer, "The Dark Knight", 2008, 9.0)
+add_movie(filmer, "Interstellar", 2014, 8.7)
+add_movie(filmer, "The Matrix", 1999, 8.7)
+
+
+# C) Legger til en film uten å oppgi rating
+add_movie(filmer, "Titanic", 1997)
+
+
+# Skriver ut filmene
 print(filmer)
-# Oppgave 5.1 C
-
-#def add_movie(filmliste, name, year, rating=5.0):
