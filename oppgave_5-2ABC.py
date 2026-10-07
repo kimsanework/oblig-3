@@ -42,7 +42,7 @@ def print_ut_filmer(liste_med_filmer):
 
 print_ut_filmer(filmer)
 
-
+print()
 # oppgave 5.2. B
 
 def gjennomsnittsrating_filmer(liste_med_filmer):
@@ -54,7 +54,7 @@ def gjennomsnittsrating_filmer(liste_med_filmer):
 
 #print(f"{gjennomsnittsrating_filmer(filmer):.2f}")
 print(round(gjennomsnittsrating_filmer(filmer),2))
-
+print()
 # oppgave 5.2. C
 
 def filmer_etter_2009(liste_med_filmer):

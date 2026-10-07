@@ -37,6 +37,7 @@ legge_til_filmer(filmer,"Mad Max: Fury Road",
                  2015,)
 
 # oppgave 5.1. C
+
 for film in filmer:
     print(film)
 
