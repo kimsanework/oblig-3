@@ -73,6 +73,8 @@ def legg_til_i_text(liste_med_filmer,filnavn):
                 f"{film["name"]} - {film["year"]} has a rating of {film["rating"]}\n"
             )
 
+# oppgave 5.3 B
+
 legg_til_i_text(filmer,"movies.txt")
 
 def legg_til_i_text(filnavn):

@@ -1,4 +1,5 @@
-# i dette programmet kan brukeren velge egne inputs:
+# Denne koden består av to forsøk på å løse oppgave 4A.
+# Forsøk 1 - jeg prøvde å løse koden helt alene
 print("Regn ut volum av et tredimensjoanlt objekt! "
       "For å starte trenger vi noen inputs.")
 
@@ -21,15 +22,13 @@ def volum_halv(lengde, bredde, høyde):# denne funksjonen regner ut halvparten a
     return (lengde * høyde * bredde)/2
 resultat_3 = volum_halv(lengde, bredde, høyde)
 print(f'Fun fact: Et halvparten så lite tredimensjonalt objekt ville vært: {resultat_3}')
-
-
-#--------- jeg la til dette etter at jeg så hvordan KI-løste oppgaven ----------
 print()
 
-volum_2 = volum(1,2,3)
-volum_3 = volum(4,5,6)
-volum_4 = volum(7,8,9)
+# forsøk 2 - "kodeorkester" i mentortimen, hvor studentene sammen jobbet for å løse oppgaven
+def volum (bredde, lengde, høyde):
+    mål = lengde * bredde * høyde
+    return "volum = " + str(mål) # typecasting
 
-print(volum_2)
-print(volum_3)
-print(volum_4)
+print(volum(3,4,5))
+print(volum(6,7,8))
+print(volum(9,10,11))

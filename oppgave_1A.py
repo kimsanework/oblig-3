@@ -1,4 +1,4 @@
-#Oppgave 1.A - Dictionaries
+#Oppgave 1.A - Dictionary
 student = {
     "fornavn" : "Kim",
     "etternavn" : "Brarud",

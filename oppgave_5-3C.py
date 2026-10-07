@@ -55,3 +55,32 @@ write_movies_to_file(filmer, "movies.txt")
 
 # Bruker funksjon B
 read_movies_from_file("movies.txt")
+print()
+
+#------------ Copilot -------------
+
+# Liste med filmer
+filmer = [
+    {"name": "Inception", "year": 2010, "rating": 8.7},
+    {"name": "Inside Out", "year": 2015, "rating": 8.1},
+    {"name": "Con Air", "year": 1997, "rating": 6.9}
+]
+
+# A) Skriv filmer til fil
+def skriv_filmer_til_fil(filmliste, filnavn):
+    with open(filnavn, "w") as fil:
+        for film in filmliste:
+            linje = f"{film['name']} - {film['year']} has a rating of {film['rating']}\n"
+            fil.write(linje)
+
+# B) Les fra fil og skriv til terminal
+def les_fil(filnavn):
+    with open(filnavn, "r") as fil:
+        innhold = fil.read()
+        print(innhold)
+
+# Test funksjonene
+skriv_filmer_til_fil(filmer, "movies.txt")
+
+print("Innholdet i movies.txt:")
+les_fil("movies.txt")
