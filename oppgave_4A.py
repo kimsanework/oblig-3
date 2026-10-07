@@ -12,14 +12,14 @@ høyde = float(input("Skriv inn høyde: "))
 resultat = volum(lengde, bredde, høyde)
 print(f"Volumet av objektet er: {resultat}")
 
-def volum_2(lengde, bredde, høyde): # denne funksjonen regner ut dobbel størrelse
+def volum_dobbel(lengde, bredde, høyde): # denne funksjonen regner ut dobbel størrelse
     return (lengde * høyde * bredde)*2
-resultat_2 = volum_2(lengde, bredde, høyde)
+resultat_2 = volum_dobbel(lengde, bredde, høyde)
 print(f'Fun fact: Et dobbelt så stort tredimensjonalt objekt ville vært: {resultat_2}')
 
-def volum_3(lengde, bredde, høyde):# denne funksjonen regner ut halvparten av volum
+def volum_halv(lengde, bredde, høyde):# denne funksjonen regner ut halvparten av volum
     return (lengde * høyde * bredde)/2
-resultat_3 = volum_3(lengde, bredde, høyde)
+resultat_3 = volum_halv(lengde, bredde, høyde)
 print(f'Fun fact: Et halvparten så lite tredimensjonalt objekt ville vært: {resultat_3}')
 
 

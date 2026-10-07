@@ -14,3 +14,21 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def test_funksjon(ting):
+    print(ting)
+    return "ferdig"
+
+print(test_funksjon(10))
+
+def test_funksjon(ting):
+    print(ting + 2)
+    return "ferdig"
+
+print(test_funksjon(10))
+
+def test_funksjon(ting):
+    print(ting + 2)
+    return "ferdig"
+
+print(test_funksjon(10))
